@@ -13,7 +13,7 @@ const Contact = () => {
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus perferendis cupiditate similique excepturi laborum assumenda.</p>
                 <form action="" className='FormControl'>
                     <input type="text" placeholder='Name' />
-                    <input type="text" placeholder='email' /><br />
+                    <input type="text" placeholder='EmailID' /><br />
                     <textarea name="message" cols="40" rows="10"></textarea>
                     <br />
                     <button>Send Message</button>
