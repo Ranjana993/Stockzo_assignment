@@ -1,0 +1,72 @@
+.Team>h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.leftContainer {
+    /* background-color: aqua; */
+    width: 30rem;
+    height: 30rem;
+    padding: 2rem;
+}
+
+
+
+.centerContainer {
+    /* background-color: blueviolet; */
+    width: 30rem;
+    height: 30rem;
+    padding: 2rem;
+
+}
+
+.rightContainer {
+    /* background-color: lightcoral; */
+    width: 30rem;
+    height: 30rem;
+    padding: 2rem;
+}
+
+.Container__Image {
+    background-color: black;
+    height: 20rem;
+    width: 20rem;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+}
+
+p {
+    margin-left:1.2rem;
+    font-size: 1.5rem;
+    color: grey;
+}
+h3{
+    font-weight: 800;
+    color: black;
+    margin-left:-3rem;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:756px) {
+    .container {
+        display: flex;
+        margin: 1rem;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

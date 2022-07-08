@@ -1,0 +1,84 @@
+.UserContainer {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    gap: 2px;
+}
+
+.Users>h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.leftContainer__User,
+.CenterContainer__User,
+.RightContainer__User {
+    height: 32rem;
+    width: 30rem;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-top: 12px;
+    box-shadow: 3px 3px 6px -4px grey;
+}
+
+.leftContainer__User>.User,
+.CenterContainer__User>.User,
+.RightContainer__User>.User {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: -12px;
+    color: black;
+}
+
+.leftContainer__User>h2,
+.CenterContainer__User>h2,
+.RightContainer__User>h2 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+.leftContainer__User>button,
+.CenterContainer__User>button,
+.RightContainer__User>button {
+    height: 3rem;
+    margin-top: 2rem;
+    width: 10rem;
+}
+
+.leftContainer__User {
+    background-color: black;
+    color: white;
+
+}
+.BTN{
+    background-color: black;
+    color: white;
+}
+
+.leftContainer__User>.User {
+    color: white;
+}
+
+.leftContainer__User>p {
+    color: white;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.CenterContainer__User,
+.RightContainer__User {
+    background-color: rgb(243, 237, 234);
+}
+
+@media screen and (max-width:756px) {
+    .UserContainer {
+        display: flex;
+        margin: 2rem;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

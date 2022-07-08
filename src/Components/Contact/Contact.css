@@ -1,0 +1,62 @@
+.Contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    /* height: 100vh; */
+    margin-bottom: 1rem;
+}
+
+.ContactForm {
+    margin-right: 3rem;
+    width: 42rem;
+}
+
+.ContactForm>p {
+    font-size: 1.2rem;
+    line-break: 11px;
+    color: white;
+
+}
+
+.ContactForm>.question_query {
+    font-size: 4.3rem;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 1rem;
+
+}
+
+.ContactForm>h1 {
+    margin-top: 3rem;
+    margin-bottom: 1.2rem;
+}
+
+.FormControl>input {
+    height: 5rem;
+    width: 15rem;
+    background: transparent;
+    outline: 1px solid white;
+    text-indent: 10px;
+    margin: 1.2rem;
+    border: 1px white;
+    margin-top: 4rem;
+}
+
+.FormControl>textarea {
+    background-color: transparent;
+    width: 33rem;
+    height: 12rem;
+    margin-left: 1rem;
+}
+.FormControl>button{
+    background-color: white;
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+
+.ContactImage>img {
+    height: 40rem;
+    width: 40rem;
+}

@@ -1,0 +1,85 @@
+.container__Loginform {
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+
+.loginForm {
+    width: 50rem;
+    margin-left: 3.4rem;
+    margin-top: 3rem;
+    /* padding: 2rem; */
+}
+
+.loginForm>h1 {
+    font-size: 4.5rem;
+    margin-top: 3rem;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+.login_acc {
+    margin-top: 2rem;
+    color: white;
+}
+
+form>button {
+    height: 3.2rem;
+    width: 20rem;
+    padding: 22px;
+    margin-left: -0.1rem;
+    margin-top: 2rem;
+}
+
+form>label,
+form>input {
+    margin-top: 3rem;
+
+}
+
+.pass {
+    margin-left: 20rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.createPass {
+    margin-top: 12px;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.loginForm>form>input {
+    border: none;
+    margin-left: 3rem;
+    width: 14rem;
+    border-bottom: medium dashed grey;
+    background-color: transparent;
+}
+
+.loginImage>img {
+    height: 50rem;
+    width: 40rem;
+}
+
+
+@media screen and (max-width:756px) {
+    .container__Loginform {
+        display: flex;
+        margin: 2rem;
+        box-sizing: border-box;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .loginForm {
+        width: 20rem;
+        margin-left: 3.4rem;
+        margin-top: 3rem;
+        /* padding: 2rem; */
+    }
+}
